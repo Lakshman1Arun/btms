@@ -1,0 +1,5 @@
+cd btms_simulation
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python -m pytest tests/ -v     # 37 tests — verify everything on YOUR machine
+python -m btms_sim             # regenerates all figures, CSVs and report.md
